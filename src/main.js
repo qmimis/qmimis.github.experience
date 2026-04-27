@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { createApp } from './node_modules/vue/dist/vue.esm-browser.js'
 import App from './App.vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
