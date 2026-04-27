@@ -14,4 +14,9 @@ export default defineConfig({
       }),
     VitePluginMarkdown()
   ],
+  resolve: {
+    alias: {
+    'vue': 'vue/dist/vue.esm-browser.js'
+    }
+  }
 })
