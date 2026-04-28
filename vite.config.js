@@ -15,7 +15,7 @@ export default defineConfig({
     VitePluginMarkdown()
   ],
   resolve: {
-    symlinks: true,,
+    symlinks: true,
     alias: {
     'vue': 'vue/dist/vue.esm-browser.js'
     }
