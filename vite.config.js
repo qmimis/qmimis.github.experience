@@ -7,13 +7,17 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'qmimis的个人博客',
   base:'/qmimis/qmimis.github.experience/',
-  title: '我的个人博客',
   plugins: [
     vue({
       include: [/\.vue$/, /\.md$/], // 让Vue插件也编译.md文件
       }),
     VitePluginMarkdown()
   ],
+  createExternal({
+   interop:'auto',
+externals:{
+vue: 'Vue'}
+}) 
   resolve: {
     symlinks: true,
     alias: {
