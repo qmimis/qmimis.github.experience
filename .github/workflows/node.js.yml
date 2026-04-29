@@ -26,7 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm run deploy
     - run: npm install
     - run: npm run build --force
     - run: npm vue --version
