@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import vue from './vitejs/plugin-vue'
 import VitePluginMarkdown from 'vite-plugin-md'
 
 // 如果你想要 externals 功能，应该用 vite-plugin-externals，或相关的插件进行配置，
