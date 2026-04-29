@@ -9,7 +9,9 @@ export default defineConfig({
   title: 'qmimis的个人博客',
   base: '/qmimis/qmimis.github.experience/',
   plugins: [
-    vue(),
+    vue({
+      include: [/\.vue$/, /\.md$/], // 让Vue插件也编译.md文件
+    }),
     VitePluginMarkdown()
     // 其它插件可以继续加在这里
   ],
