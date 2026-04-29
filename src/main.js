@@ -5,7 +5,6 @@ import 'element-plus/dist/index.css'
 import router from './router' // 引入刚才创建的 router
 
 
-
 const app = createApp(App)
 app.use(ElementPlus).use(router)
 app.mount('#app')
