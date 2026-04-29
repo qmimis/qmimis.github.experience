@@ -29,4 +29,5 @@ jobs:
     - run: npm install
     - run: npm run build --force
     - run: npm vue --version
+    
 #    - run: npm test
