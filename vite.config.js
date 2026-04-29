@@ -6,6 +6,7 @@ import VitePluginMarkdown from 'vite-plugin-md'
 // 这里假设不用 createExternal（它不是 Vite API），
 export default defineConfig({
   plugins: [
+    base:'/qmimis/qmimis.github.experience/',
     vue({
       include: [/\.vue$/, /\.md$/], // 让Vue插件也编译.md文件
     }),
